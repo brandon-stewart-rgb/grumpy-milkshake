@@ -1,8 +1,16 @@
 import React from 'react';
+import Footer from '../Footer';
+
 
 function About() {
     return (
-       
+       <>
+      	<section class="hero is-primary">
+			<div class="hero-body">
+				<p class="subtitle">About</p>
+			</div>
+		</section>
+
       <div className="section-light about-me" id="about-me">
         <div className="container">
           <div className="column is-12 about-me">
@@ -67,7 +75,8 @@ function About() {
           </div>
         </div>
       </div>
-    
+      <Footer />
+     </>
     );
 };
 

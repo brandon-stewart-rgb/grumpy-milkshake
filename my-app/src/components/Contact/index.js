@@ -1,8 +1,14 @@
 import React from "react";
+import Footer from '../Footer';
 
 function Contact() {
     return (
-       
+       <>
+  	<section class="hero is-primary">
+			<div class="hero-body">
+				<p class="subtitle">Contact</p>
+			</div>
+		</section>
         <div className="section-light contact" id="contact">
           <div className="container">
             <div
@@ -71,8 +77,8 @@ function Contact() {
             </div>
           </div>
         </div>
-       
-  
+       <Footer />
+  </>
     )
 }
 

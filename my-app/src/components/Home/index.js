@@ -2,21 +2,14 @@ import React from 'react';
 import Footer from '../Footer';
 import Hero from '../Hero';
 
-
 function Home() {
-    return (
-       
-            <>
-        <Hero />
+	return (
+		<>
+			<Hero />
 
-
-        <Footer />
-
-            </>  
-       
-    
-        
-    )
+			<Footer />
+		</>
+	);
 }
 
 export default Home;

@@ -1,8 +1,14 @@
 import React from "react";
+import Footer from '../Footer';
 
 function Project() {
     return (
-        
+      <>
+      	<section class="hero is-primary">
+			<div class="hero-body">
+				<p class="subtitle">Portfolio</p>
+			</div>
+		</section>
         <div className="section-dark my-work" id="my-work">
           <div className="container">
             <div
@@ -80,7 +86,11 @@ function Project() {
             </div>
           </div>
         </div>
+        <Footer />
+  </>
     )
 }
 
 export default Project;
+
+

@@ -1,8 +1,14 @@
 import React from "react";
+import Footer from '../Footer';
 
 function Skills() {
     return (
-
+      <>
+      	<section class="hero is-primary">
+			<div class="hero-body">
+				<p class="subtitle">Skills</p>
+			</div>
+		</section>
      
       <div className="section-light skills" id="skills">
         <div className="container">
@@ -15,14 +21,14 @@ function Skills() {
               data-aos="fade-in"
               data-aos-easing="linear"
             >
-              <h1>Adobe Experience Design</h1>
-              <progress className="progress" value="70" max="100">30%</progress>
-              <h1>Adobe After Effects</h1>
+              <h1>Adobe PhotoShop</h1>
+              <progress className="progress" value="85" max="100">30%</progress>
+              <h1>Adobe Illustrator</h1>
               <progress className="progress" value="65" max="100">30%</progress>
               <h1>Visual Studio Code</h1>
               <progress className="progress" value="58" max="100">45%</progress>
-              <h1>Sketch</h1>
-              <progress className="progress" value="90" max="100">60%</progress>
+              <h1>Nodejs</h1>
+              <progress className="progress" value="70" max="100">60%</progress>
             </div>
             <div
               className="column is-6"
@@ -30,10 +36,10 @@ function Skills() {
               data-aos-easing="linear"
             >
               <h1>HTML</h1>
-              <progress className="progress" value="85" max="100">30%</progress>
+              <progress className="progress" value="95" max="100">30%</progress>
               <h1>CSS</h1>
               <progress className="progress" value="95" max="100">30%</progress>
-              <h1>VueJS</h1>
+              <h1>SASS</h1>
               <progress className="progress" value="70" max="100">45%</progress>
               <h1>React</h1>
               <progress className="progress" value="60" max="100">60%</progress>
@@ -41,7 +47,8 @@ function Skills() {
           </div>
         </div>
       </div>
-     
+       <Footer />
+       </>
 
     )
 }
