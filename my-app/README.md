@@ -102,5 +102,9 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
-        BUILD REACT SITE WITH ANY WEB PAGE
-https://javascript.plainenglish.io/how-to-convert-any-web-page-to-reactjs-9740f1ba15db
+       
+
+
+       react navigation
+
+       https://reactnavigation.org/docs/navigating
