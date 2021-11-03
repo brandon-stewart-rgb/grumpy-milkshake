@@ -3,7 +3,7 @@ import Footer from '../Footer';
 
 function Project() {
     return (
-      <>
+      <section className="project" >
       	<section class="hero is-primary">
 			<div class="hero-body">
 				<p class="subtitle">Portfolio</p>
@@ -87,7 +87,7 @@ function Project() {
           </div>
         </div>
         <Footer />
-  </>
+  </section>
     )
 }
 

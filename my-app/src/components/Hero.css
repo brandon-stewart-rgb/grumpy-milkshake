@@ -70,3 +70,7 @@
     transition: all .2s ease-in-out;
     border-bottom: 2px solid #1f2c6c;
   }
+
+  .hero.is-primary {
+    margin: 0 0 2rem 0;
+  }

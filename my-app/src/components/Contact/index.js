@@ -3,13 +3,13 @@ import Footer from '../Footer';
 
 function Contact() {
     return (
-       <>
+      <section className="contact" >
   	<section class="hero is-primary">
 			<div class="hero-body">
 				<p class="subtitle">Contact</p>
 			</div>
 		</section>
-        <div className="section-light contact" id="contact">
+        <div className="section-light contact py-4 px-6 " id="contact">
           <div className="container">
             <div
               className="columns is-multiline"
@@ -78,7 +78,7 @@ function Contact() {
           </div>
         </div>
        <Footer />
-  </>
+  </section>
     )
 }
 

@@ -186,7 +186,14 @@ html {
   text-align: center;
   background: #6f9d32;
   color: whitesmoke;
-  padding-top: 2rem;
+  border-top: solid 4px #abc39a;
+  
+  padding: 1rem 0 7rem 0 !important;
+}
+
+.about-me .footer, .contact .footer, .project .footer, .skills .footer, .resume .footer {
+  margin: 4rem 0 4rem 0;
+ 
 }
 
 .footer a {

@@ -14,10 +14,13 @@ function Hero() {
 							A Third of the Stack Developer
 						</h1>
 						<Link to='/about'>
-						<button className="button is-outlined mr-5">About</button>
+						<button className="button is-outlined is-medium mx-5">About</button>
 						</Link>
 						<Link to='/project'>
-						<button className="button is-outlined ">Portfolio</button>
+						<button className="button is-outlined is-medium mx-5">Portfolio</button>
+						</Link>
+						<Link to='/contact'>
+						<button className="button is-outlined is-medium mx-5">Contact</button>
 						</Link>
 						
 						

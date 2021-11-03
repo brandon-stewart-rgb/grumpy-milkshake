@@ -3,10 +3,10 @@ import Footer from '../Footer';
 
 function Skills() {
     return (
-      <>
-      	<section class="hero is-primary">
-			<div class="hero-body">
-				<p class="subtitle">Skills</p>
+      <section className="skills">
+      	<section className="hero is-primary">
+			<div className="hero-body">
+				<p className="subtitle">Skills (to pay the bills)</p>
 			</div>
 		</section>
      
@@ -48,7 +48,7 @@ function Skills() {
         </div>
       </div>
        <Footer />
-       </>
+       </section>
 
     )
 }
