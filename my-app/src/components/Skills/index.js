@@ -18,7 +18,7 @@ function Skills() {
             </div>
             <div
               className="column is-6"
-              data-aos="fade-in"
+              data-aos="fade-right"
               data-aos-easing="linear"
             >
               <h1>Adobe PhotoShop</h1>
@@ -32,8 +32,9 @@ function Skills() {
             </div>
             <div
               className="column is-6"
-              data-aos="fade-in"
+            
               data-aos-easing="linear"
+              data-aos="fade-left"
             >
               <h1>HTML</h1>
               <progress className="progress" value="95" max="100">30%</progress>

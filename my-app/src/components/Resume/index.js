@@ -22,16 +22,11 @@ function Resume() {
               </h1>
             </div>
             <div className="column is-10 has-text-centered is-offset-1">
-              <h2 className="subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et doloremagna aliqua
-              </h2>
+              <div className='box'>
+              <p className= 'subtitle'>
+               Please feel free to download my resume below, it has all of my current contact info, stats, background, likes, dislikes and generalizations in general.
+              </p>
+              </div>
               <form action="example.docs">
                 <button className="button">
                   Download Resume&emsp;<i className="fad fa-download fa-lg"></i>

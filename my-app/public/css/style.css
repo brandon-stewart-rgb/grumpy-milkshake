@@ -178,17 +178,20 @@ html {
 }
 
 .footer {
-  bottom: 0;
+  
   width: 100vw;
-  padding: 0;
-  height: 80px;
+
+
   line-height: 25px;
   text-align: center;
   background: #6f9d32;
   color: whitesmoke;
   border-top: solid 4px #abc39a;
   
-  padding: 1rem 0 7rem 0 !important;
+  padding: 1rem 0 2rem 0 !important;
+
+ 
+ 
 }
 
 .about-me .footer, .contact .footer, .project .footer, .skills .footer, .resume .footer {
@@ -276,3 +279,8 @@ body.preloader-site {
 
 .white
 {color:ghostwhite}
+
+.font-awesome {
+  color: ghostwhite;
+  font-size: medium;
+}

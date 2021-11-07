@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from '../Footer';
+import { Link } from 'react-router-dom';
 
 function Project() {
     return (
@@ -26,6 +27,9 @@ function Project() {
                     style={{ backgroundImage : `url('https://picsum.photos/320/180?image=0')`}}
                   ></figure>
                 </a>
+                <p className='is-size-5 subtitle has-text-centered'>This is a title |
+                <Link className='has-text-centered' to='/' target='_blank'> View Project</Link>
+                </p>
               </div>
               <div className="column is-3">
                 <a href="/">

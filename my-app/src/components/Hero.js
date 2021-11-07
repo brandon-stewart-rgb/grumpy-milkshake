@@ -13,17 +13,21 @@ function Hero() {
 						<h1 className="subtitle profession">
 							A Third of the Stack Developer
 						</h1>
-						<Link to='/about'>
-						<button className="button is-outlined is-medium mx-5">About</button>
+						<Link to="/about">
+							<button className="button is-outlined is-medium mx-5" data-aos="fade-up">
+								About
+							</button>
 						</Link>
-						<Link to='/project'>
-						<button className="button is-outlined is-medium mx-5">Portfolio</button>
+						<Link to="/project">
+							<button className="button is-outlined is-medium mx-5" data-aos="fade-down" >
+								Portfolio
+							</button>
 						</Link>
-						<Link to='/contact'>
-						<button className="button is-outlined is-medium mx-5">Contact</button>
+						<Link to="/contact">
+							<button className="button is-outlined is-medium mx-5" data-aos="fade-up">
+								Contact
+							</button>
 						</Link>
-						
-						
 					</div>
 				</div>
 			</section>

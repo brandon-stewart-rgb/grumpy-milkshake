@@ -3,7 +3,7 @@ import Footer from '../Footer';
 
 function About() {
 	return (
-		<section className="about-me" >
+		<section className="about-me">
 			<section class="hero is-primary">
 				<div class="hero-body">
 					<p class="subtitle">About</p>
@@ -23,18 +23,17 @@ function About() {
 							<p className="is-larger">
 								&emsp;&emsp;
 								<strong>
-									Showcase is a modern, beautiful personal website template to
-									showcase who you are, as well as projects you've worked on in
-									the past.
+									I come from a graphic design background choosing to enter into
+									the online realm focusing on designing WordPress sites and
+									began diving deeper into the functionality. This interest lead
+									me to working on the backend to work towards becoming a
+									full-stack developer.
 								</strong>
 							</p>
 							<br />
 							<p>
-								Showcase was built from the ground up with Bulma to be fast and
-								responsive out of the box with all source files well documented
-								for easy to customization. The Showcase template gives you a
-								personal space to share what you are all about as a creative
-								designer, developer, photographer, and more!
+								Currently I am working on React.
+
 							</p>
 							<br />
 							<div className="is-divider"></div>
@@ -62,9 +61,10 @@ function About() {
 						<div className="column is-6 right-image " data-aos="fade-left">
 							<img
 								className="is-rounded"
-								src="https://picsum.photos/id/366/600/375"
+								src={require("../../assets/images/avatar.png")}
 								alt=""
 							/>
+						
 						</div>
 					</div>
 				</div>
