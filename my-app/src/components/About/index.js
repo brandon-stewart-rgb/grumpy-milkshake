@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../Footer';
+import Avatar from '../../assets/images/avatar.png'
 
 function About() {
 	return (
@@ -61,8 +62,8 @@ function About() {
 						<div className="column is-6 right-image " data-aos="fade-left">
 							<img
 								className="is-rounded"
-								src={require("../../assets/images/avatar.png")}
-								alt=""
+								src={Avatar}
+								alt="Brandon Stewart"
 							/>
 						
 						</div>
