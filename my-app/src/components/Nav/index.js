@@ -43,12 +43,9 @@ function Nav() {
 						<Link to="/about" className="navbar-item">
 							About
 						</Link>
-						<Link to="/project" className="navbar-item">
+						<Link to="/portfolio" className="navbar-item">
 							Portfolio
-						</Link>
-						<Link to="/skills" className="navbar-item">
-							Skills
-						</Link>
+						</Link>						
 						<Link to="/resume" className="navbar-item">
 							Resume
 						</Link>

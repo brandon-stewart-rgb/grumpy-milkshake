@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub,faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import './Footer.css';
 
 
@@ -14,35 +14,36 @@ function Footer() {
 							<div className="is-divider"></div>
 							<div className="columns about-links">
 								<div className="column">
-									<p className="heading">
+									<p className="heading is-size-5">
 										<strong>Give me a ring</strong>
 									</p>
-									<p className="subheading">123-456-7890</p>
+									<p className="subheading is-size-5">123-456-7890</p>
 								</div>
 								<div className="column">
-									<p className="heading">
+								<p className="heading is-size-5">
 										<strong>Email Me</strong>
 									</p>
-									<p className="subheading">hello@example.com</p>
+									<p className="subheading is-size-5">hello@example.com</p>
 								</div>
 								<div className="column">
-									<p className="heading">
+								<p className="heading is-size-5">
 										<strong>Download my resume</strong>
 									</p>
-									<p className="subheading">example.com</p>
+									<p className="subheading is-size-5">	<Link  target='_blank' to='/files/Brandon_Stewart_2021.pdf'>Download</Link></p>
+									
 								</div>
 							</div>
 
 							<div className="column">
-								<a href="https://github.com/brandon-stewart-rgb" target='_blank' >
+								<a href="https://github.com/brandon-stewart-rgb" target='_blank' rel="noreferrer" >
 								<FontAwesomeIcon icon={faGithub } className='font-awesome'></FontAwesomeIcon>
 								</a>
 
-								<a href="https://www.linkedin.com/in/brandon-stewart-976a0170/" target='_blank' >
+								<a href="https://www.linkedin.com/in/brandon-stewart-976a0170/" target='_blank'  rel="noreferrer" >
 								<FontAwesomeIcon icon={faLinkedin } className='font-awesome'></FontAwesomeIcon>
 								</a>
 
-								<a href="https://www.instagram.com/" target='_blank' >
+								<a href="https://www.instagram.com/" target='_blank' rel="noreferrer" >
 								<FontAwesomeIcon icon={faInstagram} className='font-awesome'></FontAwesomeIcon>				
 								</a>
 							</div>

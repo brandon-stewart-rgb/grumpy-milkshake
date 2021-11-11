@@ -33,9 +33,9 @@ function Contact() {
 		}
 	}
 
-	function handleSubmit(e) {
-		e.preventDefault();
-	}
+	// function handleSubmit(e) {
+	// 	e.preventDefault();
+	// }
 
 	return (
 		<section className="contact">
