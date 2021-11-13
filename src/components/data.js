@@ -5,7 +5,6 @@ import img4 from '../assets/images/paint-headlights.png'
 import img5 from '../assets/images/exercise-doubts.png'
 import img6 from '../assets/images/el-weather.png'
 
-
  export const projects = [
     {
         title: 'Social Network API',

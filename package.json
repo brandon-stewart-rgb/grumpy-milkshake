@@ -1,7 +1,7 @@
 {
   "name": "brandon-stewart-portfolio",
-  
   "version": "0.1.0",
+  "homepage": "https://brandonstewart-rgb.github.io/grumpy-milkshake",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
@@ -24,8 +24,9 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",     
     "start": "react-scripts start",
-   
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
