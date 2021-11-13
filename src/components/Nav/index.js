@@ -8,16 +8,16 @@ function Nav() {
 	return (
 		<nav className="navbar" role="navigation" aria-label="main navigation">
 			<div className="navbar-brand">
-				<a href="/" className="navbar-item">
+				<Link to="/" className="navbar-item">
 					<img
 						src={Logo}
 						alt="brandon stewart"
 						width="293"
 						height="33"
 					/>
-				</a>
+				</Link>
 
-				<a href='/'
+				<a 
 					onClick={() => {
 						setisActive(!isActive);
 					}}

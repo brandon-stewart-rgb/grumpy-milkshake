@@ -13,6 +13,7 @@ function Hero() {
 						<h1 className="subtitle profession">
 							A Third of the Stack Developer
 						</h1>
+						<div className='is-hidden-mobile'>
 						<Link to="/about">
 							<button className="button is-outlined is-medium mx-5" data-aos="fade-up">
 								About
@@ -28,6 +29,7 @@ function Hero() {
 								Contact
 							</button>
 						</Link>
+						</div>
 					</div>
 				</div>
 			</section>
