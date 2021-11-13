@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Logo from '../../assets/images/brandon-stewart.png'
 
 function Nav() {
 	const [isActive, setisActive] = React.useState(false);
@@ -9,7 +10,7 @@ function Nav() {
 			<div className="navbar-brand">
 				<a href="/" className="navbar-item">
 					<img
-						src="../../images/brandon-stewart.png"
+						src={Logo}
 						alt="brandon stewart"
 						width="293"
 						height="33"
