@@ -1,34 +1,36 @@
-import React from "react";
+import React from 'react';
+import Header from '../Header';
 import Footer from '../Footer';
 import Project from '../Project';
 
 function Portfolio() {
-    return (
-      <section className="project" >
-      	<section class="hero is-primary">
-			  <div class="hero-body">
-				  <p class="subtitle">Portfolio</p>
-			  </div>
-		  </section>
+  
+	document.title = 'Portfolio';
 
-        <div className="section-dark my-work" id="my-work">
-          <div className="container">
-            <div className="columns is-multiline" data-aos="fade-in" data-aos-easing="linear" >
+	return (
+		<section className="project">
 
-              <div className="column is-12">
-                <h1 className="title has-text-centered section-title">My Work</h1>
-              </div>
+			<Header />
 
-            <Project/>
+			<div className="section-dark my-work" id="my-work">
+				<div className="container">
+					<div
+						className="columns is-multiline"
+						data-aos="fade-in"
+						data-aos-easing="linear"
+					>
+						<div className="column is-12">
+							<h1 className="title has-text-centered section-title">My Work</h1>
+						</div>
 
-            </div>
-          </div>
-        </div>
-        <Footer />
-  </section>
-    )
+						<Project />
+
+					</div>
+				</div>
+			</div>
+			<Footer />
+		</section>
+	);
 }
 
 export default Portfolio;
-
-

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Header from '../Header';
 import Footer from '../Footer';
 import { validateEmail } from '../../utils/helpers';
 
@@ -37,13 +38,14 @@ function Contact() {
 	// 	e.preventDefault();
 	// }
 
+		document.title = "Contact";  
+	
 	return (
+
 		<section className="contact">
-			<section class="hero is-primary">
-				<div class="hero-body">
-					<p class="subtitle">Contact</p>
-				</div>
-			</section>
+
+		<Header />
+		
 			<div className="section-light contact py-4 px-6 " id="contact">
 				<div className="container">
 					<div

@@ -1,3 +1,85 @@
+![License Badge](https://img.shields.io/static/v1?label=license&message=MIT+License&color=brightgreen&style=for-the-badge)
+<br />
+<br />
+<p align="center">
+
+
+  <h1 align="center">React Portfolio</h1>
+
+  <p align="center">
+    A React portfolio demonstrating my latest projects.
+    <br />
+    <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake">View Demo</a>
+    ·
+    <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake/issues">Request Feature</a>
+  </p>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+![Screenshot ](public/images/ss.png)
+
+
+
+### Built With
+
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Node.js](https://getbootstrap.com)
+* [React](https://jquery.com)
+* [Bulma](https://bulma.io/)
+* [Photoshop](https://www.adobe.com/)
+* [Illustrator](https://www.adobe.com/)
+
+
+
+<!-- GETTING STARTED -->
+
+### Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* Node.js
+  ```sh
+  https://nodejs.org/en/
+  ```
+
+### Installation
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -30,81 +112,82 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
+ 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- USAGE EXAMPLES -->
+## Usage
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-AS AN employer looking for candidates with experience building single-page applications
-I WANT to view a potential employee's deployed React portfolio of work samples
-SO THAT I can assess whether they're a good candidate for an open position
+Use this software at your own risk, the content is copyrighted.
 
 
 
-GIVEN a single-page application portfolio for a web developer
-WHEN I load the portfolio
-THEN I am presented with a page containing a header, a section for content, and a footer
-WHEN I view the header
-THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
-WHEN I view the navigation titles
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
-
-       
 
 
-       react navigation
+<!-- ROADMAP -->
+## Roadmap
 
-       https://reactnavigation.org/docs/navigating
+See the [open issues](https://github.com/brandon-stewart-rgb/grumpy-milkshake/issues) for a list of proposed features (and known issues).
+
+
+
+<!-- CONTRIBUTING -->
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+
+Brandon Stewart -  - brandon@brandon.com
+
+Project Link: [https://github.com/brandon-stewart-rgb/grumpy-milkshake](https://github.com/brandon-stewart-rgb/grumpy-milkshake)
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [GitHub Pages](https://pages.github.com)
+* [Animate.css](https://daneden.github.io/animate.css)
+* [Loaders.css](https://connoratherton.com/loaders)
+* [Slick Carousel](https://kenwheeler.github.io/slick)
+* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
+* [Sticky Kit](http://leafo.net/sticky-kit)
+* [JVectorMap](http://jvectormap.com)
+* [Font Awesome](https://fontawesome.com)
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
+[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/othneildrew
+[product-screenshot]: images/screenshot.png

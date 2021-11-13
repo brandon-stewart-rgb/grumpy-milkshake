@@ -3,10 +3,12 @@ import Footer from '../Footer';
 import Hero from '../Hero';
 
 function Home() {
+
+		document.title = "Brandon Stewart Portfolio";  
+
 	return (
 		<>
 			<Hero />
-
 			<Footer />
 		</>
 	);

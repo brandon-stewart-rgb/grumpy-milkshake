@@ -18,7 +18,7 @@ function Hero() {
 								About
 							</button>
 						</Link>
-						<Link to="/project">
+						<Link to="/portfolio">
 							<button className="button is-outlined is-medium mx-5" data-aos="fade-down" >
 								Portfolio
 							</button>

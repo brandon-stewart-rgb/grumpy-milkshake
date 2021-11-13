@@ -1,15 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Header from '../Header';
 import Footer from '../Footer';
-import Avatar from '../../assets/images/avatar.png'
+import Avatar from '../../assets/images/avatar.png';
 
 function About() {
+
+	document.title = 'About';
+
 	return (
 		<section className="about-me">
-			<section class="hero is-primary">
-				<div class="hero-body">
-					<p class="subtitle">About</p>
-				</div>
-			</section>
+			
+			<Header />
 
 			<div className="section-light " id="about-me">
 				<div className="container">
@@ -25,16 +27,16 @@ function About() {
 								&emsp;&emsp;
 								<strong>
 									I come from a graphic design background choosing to enter into
-									the online realm focusing on designing WordPress sites and
-									began diving deeper into the functionality. This interest lead
-									me to working on the backend to work towards becoming a
-									full-stack developer.
+									the online realm while focusing on designing WordPress sites
+									and I then began diving deeper into the functionality of
+									websites.
 								</strong>
 							</p>
 							<br />
 							<p>
-								Currently I am working on React.
-
+								This interest lead me to working on the backend to work towards
+								becoming a full-stack developer. Currently I am working on React
+								in the MERN stack.
 							</p>
 							<br />
 							<div className="is-divider"></div>
@@ -49,23 +51,25 @@ function About() {
 									<p className="heading">
 										<strong>Email Me</strong>
 									</p>
-									<p className="subheading">hello@example.com</p>
+									<p className="subheading">
+										<Link>hello@example.com</Link>
+									</p>
 								</div>
 								<div className="column">
 									<p className="heading">
 										<strong>View my portfolio</strong>
 									</p>
-									<p className="subheading">example.com</p>
+									<p className="subheading ">
+										{' '}
+										<Link target="_blank" to="/files/Brandon_Stewart_2021.pdf">
+											Download
+										</Link>
+									</p>
 								</div>
 							</div>
 						</div>
 						<div className="column is-6 right-image " data-aos="fade-left">
-							<img
-								className="is-rounded"
-								src={Avatar}
-								alt="Brandon Stewart"
-							/>
-						
+							<img className="is-rounded" src={Avatar} alt="Brandon Stewart" />
 						</div>
 					</div>
 				</div>

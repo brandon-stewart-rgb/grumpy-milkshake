@@ -46,7 +46,10 @@ function Footer() {
 								<a href="https://www.instagram.com/" target='_blank' rel="noreferrer" >
 								<FontAwesomeIcon icon={faInstagram} className='font-awesome'></FontAwesomeIcon>				
 								</a>
+
+								<p className='is-size-6 mt-5'>&copy; Copyright 2021 All Content, Brandon Stewart | All rights reserved</p>
 							</div>
+
 
 				{/* <Link to="/">
 					<button className="button is-outlined mb-4 brandon ">
