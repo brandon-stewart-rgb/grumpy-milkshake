@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/grumpy-milkshake/static/css/main.1abc0012.chunk.css",
-    "main.js": "/grumpy-milkshake/static/js/main.2e046d4b.chunk.js",
-    "main.js.map": "/grumpy-milkshake/static/js/main.2e046d4b.chunk.js.map",
+    "main.js": "/grumpy-milkshake/static/js/main.395eef3e.chunk.js",
+    "main.js.map": "/grumpy-milkshake/static/js/main.395eef3e.chunk.js.map",
     "runtime-main.js": "/grumpy-milkshake/static/js/runtime-main.6a5d796f.js",
     "runtime-main.js.map": "/grumpy-milkshake/static/js/runtime-main.6a5d796f.js.map",
     "static/js/2.e4c074ad.chunk.js": "/grumpy-milkshake/static/js/2.e4c074ad.chunk.js",
@@ -11,12 +11,17 @@
     "static/css/main.1abc0012.chunk.css.map": "/grumpy-milkshake/static/css/main.1abc0012.chunk.css.map",
     "static/js/2.e4c074ad.chunk.js.LICENSE.txt": "/grumpy-milkshake/static/js/2.e4c074ad.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/grumpy-milkshake/static/media/7w4646.0d69b806.jpg",
-    "static/media/avatar.872bde4c.png": "/grumpy-milkshake/static/media/avatar.872bde4c.png"
+    "static/media/avatar.872bde4c.png": "/grumpy-milkshake/static/media/avatar.872bde4c.png",
+    "static/media/brandon-stewart.c173b22e.png": "/grumpy-milkshake/static/media/brandon-stewart.c173b22e.png",
+    "static/media/describe-bamboo.f9ca117c.png": "/grumpy-milkshake/static/media/describe-bamboo.f9ca117c.png",
+    "static/media/double-twigs.eb23db41.png": "/grumpy-milkshake/static/media/double-twigs.eb23db41.png",
+    "static/media/el-weather.070927ae.png": "/grumpy-milkshake/static/media/el-weather.070927ae.png",
+    "static/media/exercise-doubts.f9fff685.png": "/grumpy-milkshake/static/media/exercise-doubts.f9fff685.png"
   },
   "entrypoints": [
     "static/js/runtime-main.6a5d796f.js",
     "static/js/2.e4c074ad.chunk.js",
     "static/css/main.1abc0012.chunk.css",
-    "static/js/main.2e046d4b.chunk.js"
+    "static/js/main.395eef3e.chunk.js"
   ]
 }
