@@ -12,7 +12,7 @@
     <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake">View Demo</a>
+    <a href="https://brandon-stewart-rgb.github.io/grumpy-milkshake/">VIEW LIVE SITE</a>
     ·
     <a href="https://github.com/brandon-stewart-rgb/grumpy-milkshake/issues">Report Bug</a>
     ·
