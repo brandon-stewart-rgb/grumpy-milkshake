@@ -1,4 +1,4 @@
-import img1 from '../assets/images/double-twigs.png'
+import img1 from '../assets/images/clean-freak.png'
 import img2 from '../assets/images/plain-creature.png'
 import img3 from '../assets/images/describe-bamboo.png'
 import img4 from '../assets/images/paint-headlights.png'
@@ -7,10 +7,10 @@ import img6 from '../assets/images/el-weather.png'
 
  export const projects = [
     {
-        title: 'Social Network API',
+        title: 'Clean Freak',
         image: img1,
-        github: 'https://github.com/brandon-stewart-rgb/double-twigs',
-        demo: 'https://watch.screencastify.com/v/wX1udNp9IjicnJr32BK6'
+        github: 'https://github.com/brandon-stewart-rgb/clean-freak',
+        demo: 'https://clean-freak.herokuapp.com/'
     },
     {
         title: 'MVC Tech Blog',
