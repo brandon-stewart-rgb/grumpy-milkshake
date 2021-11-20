@@ -11,6 +11,7 @@ import img6 from '../assets/images/el-weather.png'
         image: img1,
         github: 'https://github.com/brandon-stewart-rgb/clean-freak',
         demo: 'https://clean-freak.herokuapp.com/'
+        
     },
     {
         title: 'MVC Tech Blog',
