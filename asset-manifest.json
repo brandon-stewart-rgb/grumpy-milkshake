@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/grumpy-milkshake/static/css/main.1abc0012.chunk.css",
-    "main.js": "/grumpy-milkshake/static/js/main.9128400a.chunk.js",
-    "main.js.map": "/grumpy-milkshake/static/js/main.9128400a.chunk.js.map",
+    "main.js": "/grumpy-milkshake/static/js/main.a2f02d38.chunk.js",
+    "main.js.map": "/grumpy-milkshake/static/js/main.a2f02d38.chunk.js.map",
     "runtime-main.js": "/grumpy-milkshake/static/js/runtime-main.6a5d796f.js",
     "runtime-main.js.map": "/grumpy-milkshake/static/js/runtime-main.6a5d796f.js.map",
-    "static/js/2.e4c074ad.chunk.js": "/grumpy-milkshake/static/js/2.e4c074ad.chunk.js",
-    "static/js/2.e4c074ad.chunk.js.map": "/grumpy-milkshake/static/js/2.e4c074ad.chunk.js.map",
+    "static/js/2.0267a225.chunk.js": "/grumpy-milkshake/static/js/2.0267a225.chunk.js",
+    "static/js/2.0267a225.chunk.js.map": "/grumpy-milkshake/static/js/2.0267a225.chunk.js.map",
     "index.html": "/grumpy-milkshake/index.html",
     "static/css/main.1abc0012.chunk.css.map": "/grumpy-milkshake/static/css/main.1abc0012.chunk.css.map",
-    "static/js/2.e4c074ad.chunk.js.LICENSE.txt": "/grumpy-milkshake/static/js/2.e4c074ad.chunk.js.LICENSE.txt",
+    "static/js/2.0267a225.chunk.js.LICENSE.txt": "/grumpy-milkshake/static/js/2.0267a225.chunk.js.LICENSE.txt",
     "static/media/Hero.css": "/grumpy-milkshake/static/media/7w4646.0d69b806.jpg",
     "static/media/avatar.872bde4c.png": "/grumpy-milkshake/static/media/avatar.872bde4c.png",
     "static/media/brandon-stewart.c173b22e.png": "/grumpy-milkshake/static/media/brandon-stewart.c173b22e.png",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6a5d796f.js",
-    "static/js/2.e4c074ad.chunk.js",
+    "static/js/2.0267a225.chunk.js",
     "static/css/main.1abc0012.chunk.css",
-    "static/js/main.9128400a.chunk.js"
+    "static/js/main.a2f02d38.chunk.js"
   ]
 }
