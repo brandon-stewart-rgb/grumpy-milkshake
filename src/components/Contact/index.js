@@ -1,51 +1,48 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../Header';
 import Footer from '../Footer';
-import { validateEmail } from '../../utils/helpers';
+// import { validateEmail } from '../../utils/helpers';
+import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
-	const [formState, setFormState] = useState({
-		name: '',
-		email: '',
-		message: '',
-	});
-	const [errorMessage, setErrorMessage] = useState('');
-	const { name, email, message } = formState;
+	const [state, handleSubmit] = useForm('xgedwebd');
+	if (state.succeeded) {
+		return (
+			<section className="contact">
+				<Header />
 
-	function handleChange(e) {
-		if (e.target.name === 'email') {
-			const isValid = validateEmail(e.target.value);
-
-			if (!isValid) {
-				setErrorMessage('Please enter a valid email');
-			} else {
-				setErrorMessage('');
-			}
-		} else {
-			if (!e.target.value.length) {
-				setErrorMessage(`${e.target.name} is required.`);
-			} else {
-				setErrorMessage('');
-			}
-		}
-
-		if (!errorMessage) {
-			setFormState({ ...formState, [e.target.name]: e.target.value });
-		}
+				<div className="section-light contact py-4 px-6 " id="contact">
+					<div className="container">
+						<div
+							className="columns is-multiline"
+							data-aos="fade-in-up"
+							data-aos-easing="linear"
+						>
+							<div className="column is-12 about-me">
+								<h1 className="title has-text-centered section-title">
+									Thanks for reaching out!!
+								</h1>
+								<h1 className="sub-title has-text-centered ">
+									I'll be in touch soon...
+								</h1>
+							</div>
+							<div className="column is-8 is-offset-2">
+							
+							</div>
+						</div>
+					</div>
+				</div>
+				<Footer />
+			</section>
+		);
 	}
 
-	// function handleSubmit(e) {
-	// 	e.preventDefault();
-	// }
+	document.title = 'Contact';
 
-		document.title = "Contact";  
-	
 	return (
-
 		<section className="contact">
+			<Header />
 
-		<Header />
-		
 			<div className="section-light contact py-4 px-6 " id="contact">
 				<div className="container">
 					<div
@@ -59,22 +56,23 @@ function Contact() {
 							</h1>
 						</div>
 						<div className="column is-8 is-offset-2">
-							<form
-							// action="https://formspree.io/email@example.com"
-							// method="POST"
-							// onSubmit={handleSubmit(onSubmit)}
-							>
-						
+							<form onSubmit={handleSubmit}>
 								<div className="field">
 									<label className="label">Name</label>
 									<div className="control has-icons-left">
 										<input
 											className="input"
 											type="text"
-											name="Name"
-                      placeholder='e.g. Jane Doe'
-											defaultValue={name}
-											onBlur={handleChange}
+											name="name"
+											placeholder="e.g. Jane Doe"
+											// defaultValue={name}
+											// onBlur={handleChange}
+										/>
+
+										<ValidationError
+											prefix="Name"
+											field="name"
+											errors={state.errors}
 										/>
 
 										<span className="icon is-small is-left">
@@ -89,9 +87,13 @@ function Contact() {
 											className="input"
 											type="email"
 											name="Email"
-                      placeholder='e.g. jane@janedoe.com'
-											defaultValue={email}
-											onBlur={handleChange}
+											placeholder="e.g. jane@janedoe.com"
+										/>
+
+										<ValidationError
+											prefix="Email"
+											field="email"
+											errors={state.errors}
 										/>
 
 										<span className="icon is-small is-left">
@@ -106,15 +108,25 @@ function Contact() {
 											className="textarea"
 											placeholder="Textarea"
 											name="A message"
-											defaultValue={message}
-											onBlur={handleChange}
+											// defaultValue={message}
+											// onBlur={handleChange}
 										></textarea>
+
+										<ValidationError
+											prefix="Message"
+											field="message"
+											errors={state.errors}
+										/>
 									</div>
 								</div>
 								<div className="field">
-									<h1 className="subtitle has-text-danger">{errorMessage}</h1>
+									{/* <h1 className="subtitle has-text-danger">{errorMessage}</h1> */}
 									<div className="control ">
-										<button className="button submit-button">
+										<button
+											className="button submit-button"
+											type="submit"
+											disabled={state.submitting}
+										>
 											Submit&nbsp;&nbsp;
 											<i className="fas fa-paper-plane"></i>
 										</button>

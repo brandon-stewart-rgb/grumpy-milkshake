@@ -23,7 +23,7 @@ function Footer() {
 								<p className="heading is-size-5">
 										<strong>Email Me</strong>
 									</p>
-									<p className="subheading is-size-5">hello@example.com</p>
+									<p className="subheading is-size-5"><a href='mailto:brandon-stewart@pixeltree.us'>brandon-stewart@pixeltree.us</a></p>
 								</div>
 								<div className="column">
 								<p className="heading is-size-5">

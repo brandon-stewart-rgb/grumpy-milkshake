@@ -198,12 +198,7 @@ html {
   margin: 4rem 0 4rem 0;
  
 }
-.about-me,  .contact,  .project,  .skills,  .resume  {
-  padding: 0 2em;
-  border: solid 1px red;
-  
- 
-}
+
 
 .footer a {
   padding: 0rem 1rem 1rem 1rem;
