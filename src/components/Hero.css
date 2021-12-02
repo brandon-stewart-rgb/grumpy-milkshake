@@ -77,3 +77,15 @@
   .hero.is-primary {
     margin: 0 0 2rem 0;
   }
+
+  .greenbtn {
+    background-color: #6f9d32;
+    border: none;
+    color:#fff;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .greenbtn:hover {
+    background-color: rgb(163, 163, 163);
+    color: #000;
+  }

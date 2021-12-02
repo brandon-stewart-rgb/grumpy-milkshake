@@ -55,6 +55,14 @@ function Contact() {
 							<h1 className="title has-text-centered section-title">
 								Get in touch
 							</h1>
+							<h1 className="title has-text-centered section-title">
+									<p className="subheading is-size-5"><i className="far fa-envelope"></i> <a href='mailto:brandon-stewart@pixeltree.us'>brandon-stewart@pixeltree.us</a></p>
+							</h1>
+
+							<h1 className="title has-text-centered section-title">
+							<p className="subheading is-size-5"><i className="fas fa-mobile-alt"></i> <span></span>&#56;<span></span>&#48;<span></span>&#49;<span></span>.<span>7<span></span>&#48;<span></span>7</span><span>.&#55;<span></span>&#50;</span>&#55;<span></span>&#50;<span></span></p>
+							</h1>
+							
 						</div>
 						<div className="column is-8 is-offset-2">
 							<form onSubmit={handleSubmit}>

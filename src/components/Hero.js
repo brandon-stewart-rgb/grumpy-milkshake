@@ -15,17 +15,17 @@ function Hero() {
 						</h1>
 						<div className='is-hidden-mobile'>
 						<Link to="/about">
-							<button className="button is-outlined is-medium mx-5" data-aos="fade-up">
-								About
+							<button className="button  is-medium mx-5 greenbtn" data-aos="fade-up">
+							About
 							</button>
 						</Link>
 						<Link to="/portfolio">
-							<button className="button is-outlined is-medium mx-5" data-aos="fade-down" >
+							<button className="button  is-medium mx-5 greenbtn" data-aos="fade-down" >
 								Portfolio
 							</button>
 						</Link>
 						<Link to="/contact">
-							<button className="button is-outlined is-medium mx-5" data-aos="fade-up">
+							<button className="button  is-medium mx-5 greenbtn" data-aos="fade-up">
 								Contact
 							</button>
 						</Link>

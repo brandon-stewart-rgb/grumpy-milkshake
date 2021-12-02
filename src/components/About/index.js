@@ -16,7 +16,7 @@ function About() {
 			<div className="section-light " id="about-me">
 				<div className="container">
 					<div className="column is-12 about-me">
-						<h1 className="title has-text-centered section-title">About Me</h1>
+						<h1 className="title has-text-centered section-title mb-5">About Me</h1>
 					</div>
 					<div className="columns is-multiline">
 						<div
@@ -45,14 +45,14 @@ function About() {
 									<p className="heading">
 										<strong>Give me a ring</strong>
 									</p>
-									<p className="subheading">123-456-7890</p>
+									<p className="subheading"><span></span>&#56;<span></span>&#48;<span></span>&#49;<span></span>.<span>7<span></span>&#48;<span></span>7</span><span>.&#55;<span></span>&#50;</span>&#55;<span></span>&#50;<span></span></p>
 								</div>
 								<div className="column">
 									<p className="heading">
 										<strong>Email Me</strong>
 									</p>
 									<p className="subheading">
-										<Link>hello@example.com</Link>
+									<a href='mailto:brandon-stewart@pixeltree.us'>Click Here</a>
 									</p>
 								</div>
 								<div className="column">

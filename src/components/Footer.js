@@ -17,7 +17,7 @@ function Footer() {
 									<p className="heading is-size-5">
 										<strong>Give me a ring</strong>
 									</p>
-									<p className="subheading is-size-5">123-456-7890</p>
+									<p className="subheading is-size-5"><span></span>&#56;<span></span>&#48;<span></span>&#49;<span></span>.<span>7<span></span>&#48;<span></span>7</span><span>.&#55;<span></span>&#50;</span>&#55;<span></span>&#50;<span></span></p>
 								</div>
 								<div className="column">
 								<p className="heading is-size-5">
