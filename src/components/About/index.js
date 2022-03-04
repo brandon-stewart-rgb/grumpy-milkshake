@@ -25,6 +25,7 @@ function About() {
 						>
 							<p className="is-larger">
 								&emsp;&emsp;
+
 								Front-end web developer with a BA in Graphic Design from Utah State University. Recently earned a certificate in Full Stack Web Development from the University of Utah, with newly developed skills and experience in JavaScript, Node, and React.js. Previous experience includes designing/developing WordPress sites in PHP, HTML, and CSS for several organizations, which increased exposure and revenue. Proven ability to meet deadlines, project management, and teamwork. Strong interpersonal skills leading and synergizing success teams and projects. Passionate about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Holds years of valuable experience in diverse yet symbiotic skills, such as cutting-edge web technologies, SEO, and graphic design, which would be a strong asset for any engineering team. 
 							</p>
 							<br />
