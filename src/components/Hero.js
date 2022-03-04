@@ -11,7 +11,7 @@ function Hero() {
 						<h1 className="subtitle">Hey there, I'm</h1>
 						<h2 className="title">brandon</h2>
 						<h1 className="subtitle profession">
-							A Third of the Stack Developer
+							Front End Developer
 						</h1>
 						<div className='is-hidden-mobile'>
 						<Link to="/about">

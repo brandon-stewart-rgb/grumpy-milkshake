@@ -53,6 +53,7 @@ function About() {
 										<Link target="_blank" to="/files/Brandon_Stewart_2022.pdf">
 											Download
 										</Link> 
+
 									</p>
 								</div>
 							</div>
