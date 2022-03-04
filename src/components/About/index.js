@@ -25,18 +25,7 @@ function About() {
 						>
 							<p className="is-larger">
 								&emsp;&emsp;
-								<strong>
-									I come from a graphic design background choosing to enter into
-									the online realm while focusing on designing WordPress sites
-									and I then began diving deeper into the functionality of
-									websites.
-								</strong>
-							</p>
-							<br />
-							<p>
-								This interest lead me to working on the backend to work towards
-								becoming a full-stack developer. Currently I am working on React
-								in the MERN stack.
+								Front-end web developer with a BA in Graphic Design from Utah State University. Recently earned a certificate in Full Stack Web Development from the University of Utah, with newly developed skills and experience in JavaScript, Node, and React.js. Previous experience includes designing/developing WordPress sites in PHP, HTML, and CSS for several organizations, which increased exposure and revenue. Proven ability to meet deadlines, project management, and teamwork. Strong interpersonal skills leading and synergizing success teams and projects. Passionate about approaching programming challenges from different angles and collaborating with others to create meaningful web applications. Holds years of valuable experience in diverse yet symbiotic skills, such as cutting-edge web technologies, SEO, and graphic design, which would be a strong asset for any engineering team. 
 							</p>
 							<br />
 							<div className="is-divider"></div>
@@ -61,9 +50,9 @@ function About() {
 									</p>
 									<p className="subheading ">
 										{' '}
-										<Link target="_blank" to="/files/Brandon_Stewart_2021.pdf">
+										<Link target="_blank" to="/files/Brandon_Stewart_2022.pdf">
 											Download
-										</Link>
+										</Link> 
 									</p>
 								</div>
 							</div>
