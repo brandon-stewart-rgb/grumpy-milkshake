@@ -4,7 +4,7 @@
 <p align="center">
 
 
-  <h1 align="center">React Portfoliof</h1>
+  <h1 align="center">React Portfolio</h1>
 
   <p align="center">
     A React portfolio demonstrating my latest projects.
